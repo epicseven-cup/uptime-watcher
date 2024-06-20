@@ -24,4 +24,4 @@ go.work
 # Custom add ons
 
 data/*
-*.swap
+*.swp

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+message WatchPointCreationRequestMessage {
+	string url = 1;
+}
+
+message WatchPointCreationRespondMessage {
+	bool status = 1;
+}
+
+message WatchPointStaticRequest {
+	string url = 1;
+	bool status = 2;
+
+}
+
+
+service WatchPointService {
+	rpc Create(WatchPointCreationRequest)  returns (WatchPointCreationRespondMessage) {}
+	rpc StreamWatchPoint(WatchPointStaticRequest) returns (WatchPointStaticRespond) {}
+}

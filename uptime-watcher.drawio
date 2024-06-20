@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-06-01T01:30:39.576Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="8kduGqmP3z_L2-8MCjPp" version="24.4.0" type="device">
+<mxfile host="Electron" modified="2024-06-02T01:49:48.708Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.13 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="Hx82_bqNgxbflf4uWHpo" version="24.4.13" type="device" pages="2">
   <diagram name="Page-1" id="1r9S5Hu0V3cGB8y81w_R">
-    <mxGraphModel dx="2284" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1964" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,9 +75,10 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="545" y="945" />
-              <mxPoint x="545" y="1040" />
-              <mxPoint x="465" y="1040" />
+              <mxPoint x="545" y="1060" />
+              <mxPoint x="350" y="1060" />
             </Array>
+            <mxPoint x="350" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fok8q7-MihIggLaGJVCc-2" value="Ticker execute the http health check command each time the tick is finish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="fok8q7-MihIggLaGJVCc-1" vertex="1" connectable="0">
@@ -113,11 +114,46 @@
         <mxCell id="fok8q7-MihIggLaGJVCc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=-15;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XTseZx2IQ6To_P9EMm7d-9" target="fok8q7-MihIggLaGJVCc-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HylGyxj95pCYH_yStTs8-1" value="Database event when new data is in?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HylGyxj95pCYH_yStTs8-1" value="Database event when new data is in?" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-300" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HylGyxj95pCYH_yStTs8-2" value="Database event when new data is in?" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="HylGyxj95pCYH_yStTs8-2" value="Database event when new data is in?" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="-300" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n4j7GqValwlGjv9xMAqu" name="Page-2">
+    <mxGraphModel dx="1964" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1W9Xlty3brJn6UYegoy-1" value="Watcher" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-2" value="Client" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=6;" edge="1" parent="1" source="p1W9Xlty3brJn6UYegoy-4" target="p1W9Xlty3brJn6UYegoy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-4" value="Oddish" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p1W9Xlty3brJn6UYegoy-2" target="p1W9Xlty3brJn6UYegoy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-7" value="This will be a gRPC server that will transport connections to Watcher by using a gRPC client&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;rounded=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="360" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-11" value="gRPC connection to the watcher using the client" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="248" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-12" value="This service will be Python" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="240" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p1W9Xlty3brJn6UYegoy-13" value="Go service" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="218" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

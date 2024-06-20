@@ -16,11 +16,24 @@ func NewWatcher() *Watcher {
 	return &Watcher{}
 }
 
+
+// This just feels like a curl app dam it
+
 // Adds the path to router's path which checks if the path is avaaible to the user
 // this should return the success of the method
-func (watcher *Watcher) addWatchPoint(watchPoint *WatchPoint) bool {
-	return router.database.InsertWatchPoint(&watchPoint)
+func (watcher *Watcher) AddWatchPoint(watchPoint *WatchPoint) {
+	watcher.database.InsertWatchPoint(watchPoint)
 }
 
 // Remove the path that was added to the router
-func (watcher *Watcher) removePath(path string) bool {}
+func (watcher *Watcher) RemoveWatchPath(watchPoint *WatchPoint) {
+	watch.database.RemoveWatchPoint(watchPoint)
+}
+
+func (watcher *Watcher) Start() {
+	
+	for  {
+		
+	}
+
+}
